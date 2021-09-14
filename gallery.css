@@ -1,0 +1,64 @@
+body{
+    background-image: url(https://images.ctfassets.net/x7j9qwvpvr5s/77zkAimKVxxt07NkiGrUSy/f2a5bd2e17dc49948609e7a60d379c61/PV4-MY21-Model-Preview-1050x650-v02.png);
+    background-color: rgb(177, 177, 177);
+    background-blend-mode: screen;
+    background-size:auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+}
+
+header{
+    margin-top: 5%;
+    position: sticky;
+    border: 1px rgb(177, 177, 177);
+    background:rgb(177, 177, 177) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(213, 4, 4);
+    text-shadow: 1px 2px rgb(255, 255, 255);
+    text-align: center;
+    font-style: oblique;
+    font-size: larger;
+}
+section{
+    font-weight: 600;
+    margin-top: 50px;
+    font-style: initial;
+    text-align: left;
+    color: rgb(59, 65, 70);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.img{margin: 10px;
+    width: 300px;
+    height: auto;
+    border: 1.5px solid red;
+    padding: 10px;
+    align-content: center;  
+    text-align: center;
+}
+img{
+    
+    height: auto;
+    width: 100%;
+    image-resolution: 20%;
+    background-size: contain;
+}
+button{
+    margin: 3%;
+    
+    color: red;
+    border: 1px red;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img:hover{
+    background-color: rgba(209, 6, 6, 0.309);
+    background-blend-mode: screen;
+}
